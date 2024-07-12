@@ -1,0 +1,108 @@
+.user_container{
+    margin: 100px auto;
+    width: 960px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid black ;
+    top: 0;
+    left: 0;
+}
+
+.box_header{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn {
+    border: none;
+    background: none;
+}
+
+.icon1 {
+    width: 186px;
+    height: 146px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+
+.folowers{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.edit{
+    width: 100px;
+    padding: 0 20px;
+    height: 20px;
+}
+
+.img_btn{
+    height: 20px;
+    width: 10px;
+    background: none;
+    border: none;
+}
+
+.name{
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.prof{
+    font-size: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.name-surname{
+    margin-top: 5px;
+}
+
+.box{
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+
+.icons{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+.icons div {
+    width: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.item{
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    background: rgba(229, 229, 229, 1);
+}
+
+.photos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0 10px;
+}
